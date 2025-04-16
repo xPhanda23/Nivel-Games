@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>.:: Nível Games ::.</title>
+    <link rel="shortcut icon" type="image/png" href="./imagens/icon.png">
+    <link rel="stylesheet" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titulo">Nível Games</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="consoles.html">Consoles</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a href="comochegar.html">Como chegar</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <h1 class="tituloP">Contato</h1>
+            <hr>
+
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="formulario">
+                        <label class="formEsq" for="nome">Nome:</label>
+                        <input class="formDir" type="text" placeholder="Digite o seu nome" id="nome"/>
+                    </div>
+                    <div class="formulario">
+                        <label class="formEsq" for="email">E-mail:</label>
+                        <input class="formDir" type="email" placeholder="Digite o seu E-mail" id="email"/>
+                    </div>
+                    <div class="formulario">
+                        <label class="formEsq" for="idade">Idade:</label>
+                        <input class="formDir" type="number" placeholder="Digite sua idade" id="idade"/>
+                    </div>
+                    <div class="formulario">
+                        <label class="formEsq" for="">Sexo:</label>
+                        <div class="formDir">
+                            <input type="radio" name="sexo" id="masculino" />
+                            <laber for="masculino">Masculino</laber>
+                            <input type="radio" name="sexo" id="feminino" />
+                            <laber for="feminino">Feminino</laber>
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <label class="formEsq" for="telefone">Telefone:</label>
+                        <input class="formDir" type="tel" placeholder="Digite seu telefone" id="telefone"/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem:</legend>
+                    <div class="formulario">
+                        <laber class="formEsq">Assunto</laber>
+                        <select class="formDir">
+                            <option>Críticas</option>
+                            <option>Sugestões</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="formulario">
+                        <label for="msg" class="formEsq">Mensagem</label>
+                        <textarea id="msg" class="formDir"></textarea>
+                    </div>
+                    <button>Enviar informações</button>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <p>Av. Bom Jesus, 268 - Centro, Bueno Brandão - MG, 37578-000</p>
+        </footer>
+    </div>
+</body>
+
+</html>
