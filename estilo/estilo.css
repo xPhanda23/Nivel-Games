@@ -1,0 +1,168 @@
+* {
+
+    font-family: verdana;
+    margin: 0;
+
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto
+
+}
+
+header {
+
+    background-color: #09f;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.menu {
+
+    background-color: #ccc;
+
+}
+
+.menu ul {
+
+    list-style: none;
+
+}
+
+.menu ul li {
+
+    display: inline;
+    text-transform: uppercase;
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #88f;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.menu ul li a:hover {
+    
+    color: #fff;
+    background-color: #22a;
+
+}
+
+section, footer, nav {
+
+    text-align: center;
+
+}
+
+footer {
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bannersite {
+
+    margin-top: 20px;
+    width: 1000px;
+    height: 200px;
+
+}
+
+figure {
+
+    display: inline-block;
+    background-color: #000;
+    margin: 24.7px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+    text-align: center;
+    
+}
+
+figure img {
+
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+
+}
+
+figure:hover {
+
+    opacity: 1;
+
+}
+
+figcaption a {
+
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+fieldset {
+
+    width: 60%;
+    margin: 10px auto
+
+}
+
+.formulario {
+
+    margin: 10px;
+
+}
+
+.formEsq {
+
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: top;
+
+}
+
+.formDir {
+
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+
+}
+
+table {
+
+    border: solid 1px #000;
+    margin: 30px auto;
+
+}
+
+tr, td, th {
+
+    border: solid 1px #000;
+    padding: 5px;
+
+}
+
+th {
+
+    background-color: #09f;
+}
+
+.tituloP {
+
+    color: #09f;
+    padding: 15px;
+    text-align: center;
+    
+}
